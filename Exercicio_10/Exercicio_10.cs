@@ -37,10 +37,6 @@ namespace Exercicio_10
                     int resultado = numero01 + numero02;
                     Console.WriteLine($"A soma dos números digitados são: {resultado}");
                 }
-                //else if (numero01 < 0 || numero02 < 0)
-                //{
-                //    Console.WriteLine("Números negativos não contam");
-                //}
                 else if (operacao == "subtracao" || operacao == "subtração")
                 {
                     int resultado = numero01 - numero02;
