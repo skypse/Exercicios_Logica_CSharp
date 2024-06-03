@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Globalization;
+// Autor: Gabriel do Amaral Alves
+// Data: 02/06/24
+// Enunciado: 5) Escreva um programa que leia três notas de um aluno e calcule a média.
+// Informe se o aluno está aprovado (média >= 7), em recuperação (5 <= média < 7) ou reprovado (média < 5). 
 
 namespace Exercicio_05
 {
