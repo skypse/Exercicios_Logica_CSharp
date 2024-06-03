@@ -22,7 +22,7 @@ namespace Exercicio_08
             Console.Write($"Digite a nota do {nome_aluno}: ");
             string? input01 = Console.ReadLine();
 
-            // Verificação se 'nome_aluno' = Nullo ou Vázio e o mesmo para 'input01'
+            // Verificação se 'nome_aluno' = Nulo ou Vázio e o mesmo para 'input01'
             if (string.IsNullOrWhiteSpace(nome_aluno) || string.IsNullOrWhiteSpace(input01))
             {
                 Console.WriteLine("Nenhum campo pode deixar de ser preenchido!");
