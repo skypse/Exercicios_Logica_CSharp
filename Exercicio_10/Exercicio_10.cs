@@ -2,7 +2,7 @@
 // Autor: Gabriel do Amaral Alves
 // Data: 03/06/24
 // Enunciado: 10) Escreva um programa que leia dois números e uma operação
-// (adição, subtração, multiplicação ou divisão) e realize a operação correspondente. 
+// (adição, subtração, multiplicação ou divisão) e realize a operação correspondente.
 
 namespace Exercicio_10
 {
