@@ -15,11 +15,12 @@ namespace Exercicio_14
             Console.Write("Digite um número: ");
             string? inputNumero = Console.ReadLine();
 
-            // Verificando se o inputValorDaCompra e inputCategoriaCliente não está nulo ou vazio
+            // Verificando se o inputNumero não está nulo ou vazio
             if (string.IsNullOrWhiteSpace(inputNumero))
             {
                 Console.WriteLine("Por favor, coloque um número válido!");
             }
+            // Convertendo de string para double
             else if (double.TryParse(inputNumero, out double numero))
             {
                 if (numero >= 0)
