@@ -2,7 +2,7 @@
 // Autor: Gabriel do Amaral Alves
 // Data: 03/06/24
 // Enunciado: 13) Escreva um programa que leia o valor de uma compra e a categoria do cliente (1 para comum, 2 para associado e 3 para VIP). Aplique os seguintes descontos: 
-//C omum: Sem desconto
+// Comum: Sem desconto
 // Associado: 10 % de desconto
 // VIP: 20 % de desconto
 // Informe o valor final da compra. 
