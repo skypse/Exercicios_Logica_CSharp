@@ -21,7 +21,7 @@ namespace Exercicio_07
                 Console.WriteLine("Porfavor, coloque uma idade válida!");
             }
             // Converter string para int
-            if (int.TryParse(input01, out int idade))
+            else if (int.TryParse(input01, out int idade))
             {
                 if (idade < 0)
                 {

@@ -24,9 +24,8 @@ namespace Exercicio_09
             {
                 Console.WriteLine("Insira algum código válido");
             }
-
             // Conversão de 'String' para 'Int'
-            if (int.TryParse(input01, out int codigo_produto))
+            else if (int.TryParse(input01, out int codigo_produto))
             {
                 if (codigo_produto == 0)
                 {

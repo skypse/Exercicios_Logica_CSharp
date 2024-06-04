@@ -30,7 +30,7 @@ namespace Exercicio_10
                 Console.WriteLine("Não podem haver campos nulos!");
             }
             // Convertendo os inputs para int
-            if (int.TryParse(input01, out int numero01) && (int.TryParse(input02, out int numero02)))
+            else if (int.TryParse(input01, out int numero01) && (int.TryParse(input02, out int numero02)))
             {
                 if (operacao == "adicao" || operacao == "adição")
                 {

@@ -20,9 +20,8 @@ namespace Exercicio_06
             {
                 Console.WriteLine("Insira um valor válido!");
             }
-
             // Converter de 'String' para 'Int'
-            if (int.TryParse(input01, out int ano))
+            else if (int.TryParse(input01, out int ano))
             {   // Verificação do ano Bissexto
                 if ((ano % 4 == 0 && ano % 100 != 0))
                 {
